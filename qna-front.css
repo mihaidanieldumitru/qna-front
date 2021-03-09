@@ -1,0 +1,9 @@
+.pr-qa-display-question {
+  float: unset;
+  width: 100%;
+}
+.pr-qa-display-item-details {
+  position: unset;
+  display: flex;
+  flex-direction: column;
+}
