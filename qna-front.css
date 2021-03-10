@@ -95,7 +95,8 @@
     letter-spacing: normal;
 }
 
-.p-w-r .pr-qa-display.pr-qa-display-desktop .pr-qa-sort-group label {
+.p-w-r .pr-qa-display.pr-qa-display-desktop .pr-qa-sort-group label,
+.p-w-r .pr-qa-display.pr-qa-display-tablet .pr-qa-sort-group label {
     position: absolute;
     margin: unset;
     padding: 2px;
@@ -204,6 +205,7 @@
     display: flex;
     align-items: center;
 }
+
 .p-w-r .pr-btn:active:focus,
 .p-w-r .pr-btn:focus {
     box-shadow: 0 2px 0 0 #ed820f, 0 2px 4px 0 rgba(103, 105, 118, 0.15);
@@ -316,7 +318,7 @@
 .p-w-r .pr-qa-display .pr-qa-display-item .pr-qa-display-item-icon {
     background-color: #f68e1e;
     padding: .25rem .5rem;
-    left: -2.5rem;
+    left: -2.375rem;
 }
 
 .p-w-r .pr-qa-display .pr-qa-display-search form .pr-qa-display-searchbar .pr-qa-search-btn {
