@@ -1,9 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
-
-* {
-    font-family: "Open Sans", San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, "helvetica neue", helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif !important;
-}
-
 #pr-questiondisplay .p-w-r .pr-qa-display.pr-qa-display-desktop .pr-qa-display-question {
     float: unset;
     width: 100%;
