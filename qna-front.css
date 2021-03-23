@@ -1,10 +1,16 @@
+#pr-questiondisplay .p-w-r abbr,
+.p-w-r abbr[data-original-title],
+.p-w-r abbr[title] {
+    display: none;
+}
+
 #pr-questiondisplay .p-w-r .pr-qa-display.pr-qa-display-desktop .pr-qa-display-question {
     float: unset;
     width: 100%;
 }
 
 #pr-questiondisplay .p-w-r .pr-qa-display.pr-qa-display-desktop .pr-qa-display-item {
-    margin-bottom: .25rem;
+    margin-bottom: 0.25rem;
 }
 
 #pr-questiondisplay .p-w-r .pr-qa-display.pr-qa-display-desktop .pr-qa-display-item-details {
@@ -15,7 +21,6 @@
 }
 
 #pr-questiondisplay .p-w-r .pr-qa-display .pr-qa-display-item-details {
-
     display: flex;
 }
 
@@ -53,6 +58,11 @@
 
 #pr-questiondisplay .p-w-r .pr-qa-display.pr-qa-display-desktop .pr-qa-display-headline {
     margin: unset;
+    margin-top: -3.5rem;
+}
+
+#pr-questiondisplay .p-w-r .pr-qa-display.pr-qa-display-tablet .pr-qa-display-headline {
+    margin-top: -4.5rem;
 }
 
 #pr-questiondisplay .p-w-r .pr-qa-display .pr-qa-display-search {
@@ -213,7 +223,7 @@
 }
 
 #pr-questiondisplay .p-w-r .pr-qa-display span.pr-qa-display-answer-by span {
-    font-size: .75rem;
+    font-size: 0.75rem;
     color: #676976;
     line-height: 1.58;
 }
@@ -230,8 +240,8 @@
 }
 
 #pr-questiondisplay .p-w-r .pr-qa-display .pr-qa-display-answer .pr-qa-display-answer-icon svg {
-    width: .75rem;
-    height: .75rem;
+    width: 0.75rem;
+    height: 0.75rem;
 }
 
 #pr-questiondisplay .p-w-r .pr-qa-display.pr-qa-display-desktop .pr-qa-display-answer .pr-qa-display-answer-icon,
@@ -247,10 +257,9 @@
 #pr-questiondisplay .p-w-r .pr-qa-display .pr-btn-answer span,
 #pr-questiondisplay .p-w-r .pr-qa-display .pr-btn-ask-question span {
     color: #f68e1e;
-    font-size: .875rem;
+    font-size: 0.875rem;
     font-weight: bold;
     line-height: 1.25rem;
-    height: 1.25rem;
 }
 
 #pr-questiondisplay .p-w-r .pr-qa-display .pr-btn-answer:hover .pr-qa-display-text,
@@ -266,7 +275,7 @@
 #pr-questiondisplay .p-w-r .pr-qa-display.pr-qa-display-desktop .pr-btn-answer,
 #pr-questiondisplay .p-w-r .pr-qa-display.pr-qa-display-tablet .pr-btn-answer {
     margin-bottom: 1.5rem;
-    margin-top: .75rem;
+    margin-top: 0.75rem;
 }
 
 #pr-questiondisplay .p-w-r .pr-helpful-btn {
@@ -280,7 +289,7 @@
 }
 
 #pr-questiondisplay .p-w-r .pr-qa-display .pr-helpful-btn .pr-thumbs-icon svg path {
-    fill: #c9c9c9
+    fill: #c9c9c9;
 }
 
 #pr-questiondisplay .p-w-r .pr-helpful-btn:hover {
@@ -296,7 +305,7 @@
 }
 
 #pr-questiondisplay .p-w-r .pr-qa-display span {
-    font-size: .75rem;
+    font-size: 0.75rem;
     color: #676976;
 }
 
@@ -306,12 +315,12 @@
 }
 
 #pr-questiondisplay .p-w-r .pr-thumbs-icon {
-    width: 1rem
+    width: 1rem;
 }
 
 #pr-questiondisplay .p-w-r .pr-qa-display .pr-qa-display-item .pr-qa-display-item-icon {
     background-color: #f68e1e;
-    padding: .25rem .5rem;
+    padding: 0.25rem 0.5rem;
     left: -2.375rem;
 }
 
@@ -346,7 +355,7 @@
 
 #pr-questiondisplay .p-w-r .pr-qa-display.pr-qa-display-desktop .pr-qa-display-answer-link-container .pr-cross-icon,
 #pr-questiondisplay .p-w-r .pr-qa-display.pr-qa-display-tablet .pr-qa-display-answer-link-container .pr-cross-icon {
-    padding: .25rem;
+    padding: 0.25rem;
     display: flex;
     width: 1.375rem;
     height: 1.375rem;
@@ -359,7 +368,7 @@
 
 #pr-questiondisplay .p-w-r .pr-qa-display .pr-btn-answer .pr-qa-display-text,
 #pr-questiondisplay .p-w-r .pr-qa-display .pr-btn-ask-question .pr-qa-display-text {
-    margin-left: .25rem;
+    margin-left: 0.25rem;
 }
 
 #pr-questiondisplay .p-w-r .pr-qa-display .pr-btn-answer:focus span,
@@ -386,7 +395,7 @@
 
 #pr-questiondisplay .p-w-r .pr-qa-display.pr-qa-display-desktop .pr-qa-display-questionlist,
 #pr-questiondisplay .p-w-r .pr-qa-display.pr-qa-display-tablet .pr-qa-display-questionlist {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
 }
 
 #pr-questiondisplay .p-w-r .pr-qa-display .pr-btn-show-more span {
@@ -468,7 +477,7 @@
 #pr-questiondisplay .p-w-r input:focus+label.pr-label-control {
     outline: none;
     border-color: #f68e1e;
-    box-shadow: 0 0 0 2px #ed820f
+    box-shadow: 0 0 0 2px #ed820f;
 }
 
 #pr-questiondisplay .p-w-r .form-control:focus {
